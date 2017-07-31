@@ -1,0 +1,15 @@
+<div class="title">
+  <h1>Longest Word: Game</h1>
+</div>
+
+<div class="grid">
+  <p>Here is your grid... <%= $grid %></p>
+</div>
+
+<div class="user-attempt">
+  <form action="/score">
+    <label for="attempt">What's your best shot?</label>
+    <input type="text" id="attempt" name="attempt" placeholder="Enter your word...">
+    <input type="submit" value="Score it!">
+  </form>
+</div>

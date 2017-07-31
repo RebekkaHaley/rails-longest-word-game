@@ -1,0 +1,28 @@
+<div class="title">
+  <h1>Longest Word: Score</h1>
+</div>
+
+<div class="results">
+  <p>
+    Your attempt: <%= @attempt %>
+  </p>
+  <p>
+    French translation: <%= @result[:translation] %>
+  </p>
+  <p>
+    Your start time: <%= @start_time %>
+  </p>
+  <p>
+    Your end time: <%= @end_time %>
+  </p>
+  <p>
+    Your score: <%= @result[:score] %>
+  </p>
+  <p>
+    <%= @result[:message] %>
+  </p>
+</div>
+
+<div class="return">
+  <%= link_to "Return to start", game_path %>
+</div>
